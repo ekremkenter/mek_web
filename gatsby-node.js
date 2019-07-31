@@ -4,4 +4,19 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-// You can delete this file if you're not using it
+exports.createPages = ({ graphql, actions }) => {
+  const { createRedirect } = actions;
+
+  createRedirect({
+    fromPath: "https://ekremkenter.com/*",
+    toPath: "https://mek.app/:splat",
+    isPermanent: true,
+    force: true
+  });
+  createRedirect({
+    fromPath: "https://www.ekremkenter.com/*",
+    toPath: "https://mek.app/:splat",
+    isPermanent: true,
+    force: true
+  });
+};

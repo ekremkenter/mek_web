@@ -4,7 +4,7 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-exports.createPages = ({ graphql, actions }) => {
+exports.createPages = ({ actions }) => {
   const { createRedirect } = actions;
 
   createRedirect({

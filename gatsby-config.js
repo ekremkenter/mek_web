@@ -21,7 +21,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Mustafa Ekrem KENTER Personal Web Site`,
-        short_name: `ekremkenter.com`,
+        short_name: `mek.app`,
         start_url: `/`,
         background_color: `#37474f`,
         theme_color: `#37474f`,

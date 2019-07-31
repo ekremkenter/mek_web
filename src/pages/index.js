@@ -4,7 +4,7 @@ import { colors, Tooltip, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import { IconContext } from "react-icons";
 import { FaChartBar, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import profilePhoto from "../images/profile_crop_1024.jpg";
+import profilePhoto from "../images/profile.jpg";
 import Avatar from "@material-ui/core/Avatar";
 import "../components/base.css";
 

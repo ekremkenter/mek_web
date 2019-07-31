@@ -4,6 +4,8 @@ import { colors, Tooltip, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import { IconContext } from "react-icons";
 import { FaChartBar, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import {OutboundLink} from "gatsby-plugin-google-analytics";
+
 import profilePhoto from "../images/profile.jpg";
 import Avatar from "@material-ui/core/Avatar";
 import "../components/base.css";
@@ -56,28 +58,28 @@ const IndexPage = () => {
 
       <div className={classes.iconBar}>
         <IconContext.Provider value={{ className: classes.social }}>
-          <a
+          <OutboundLink
             href="https://linkedin.com/in/ekremkenter"
             rel="noopener noreferrer"
             target="_blank"
           >
             <FaLinkedin/>
-          </a>
-          <a
+          </OutboundLink>
+          <OutboundLink
             href="https://github.com/ekremkenter"
             rel="noopener noreferrer"
             target="_blank"
           >
             <FaGithub/>
-          </a>
-          <a
+          </OutboundLink>
+          <OutboundLink
             href="https://twitter.com/ekremkenter"
             rel="noopener noreferrer"
             target="_blank"
           >
             <FaTwitter/>
-          </a>
-          <a
+          </OutboundLink>
+          <OutboundLink
             href="https://profile.codersrank.io/user/ekremkenter"
             rel="noopener noreferrer"
             target="_blank"
@@ -85,7 +87,7 @@ const IndexPage = () => {
             <Tooltip title="codersrank.io">
               <FaChartBar/>
             </Tooltip>
-          </a>
+          </OutboundLink>
         </IconContext.Provider>
       </div>
 

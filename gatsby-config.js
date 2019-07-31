@@ -24,9 +24,9 @@ module.exports = {
         short_name: `ekremkenter.com`,
         start_url: `/`,
         background_color: `#37474f`,
-        theme_color: `#cfd8dc`,
+        theme_color: `#37474f`,
         display: `minimal-ui`,
-        icon: `src/images/profile_crop_1024.jpg` // This path is relative to the root of the site.
+        icon: `src/images/profile.jpg` // This path is relative to the root of the site.
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality

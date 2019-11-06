@@ -7,6 +7,7 @@ import { FaChartBar, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import {OutboundLink} from "gatsby-plugin-google-analytics";
 
 import profilePhoto from "../images/profile.jpg";
+import saa from "../images/aws_saa.png";
 import Avatar from "@material-ui/core/Avatar";
 import "../components/base.css";
 
@@ -23,6 +24,9 @@ const useStyles = makeStyles({
     color: colors.blueGrey[100]
   },
   iconBar: {
+    marginTop: "5vh"
+  },
+  awsCerts: {
     marginTop: "5vh"
   },
   social: {
@@ -89,6 +93,12 @@ const IndexPage = () => {
             </Tooltip>
           </OutboundLink>
         </IconContext.Provider>
+      </div>
+      <div className={classes.awsCerts}>
+        <OutboundLink href="https://www.certmetrics.com/amazon/public/transcript.aspx?transcript=JC0CJ9WK1JQ1QTW8"
+                      rel="noopener noreferrer"
+                      target="_blank"
+        > <img src={saa} alt="AWS Certified Solutions Architect - Associate (SAA)"/></OutboundLink>
       </div>
 
     </div>

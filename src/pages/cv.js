@@ -13,8 +13,8 @@ import "../components/base.css";
 
 const IndexPage = () => {
   useEffect(function() {
-    window.location = "https://drive.google.com/open?id=1IwpAU9ZxNArOjr13d5nNTtZvlrvwAN8y/view"
-  });
+    window.location = "https://drive.google.com/file/d/1IwpAU9ZxNArOjr13d5nNTtZvlrvwAN8y/view"
+  },[]);
   return (
     <CircularProgress/>
   );

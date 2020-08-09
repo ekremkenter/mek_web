@@ -4,8 +4,7 @@ import "../components/base.css";
 
 const IndexPage = () => {
   useEffect(function () {
-    window.location =
-      "https://drive.google.com/file/d/1sJ7mqezYFAxs2YtHcR_IQXiyJ_1pbh6L/view";
+    window.location = "https://test.kariyer.decathlon.com.tr";
   }, []);
   return <CircularProgress />;
 };

@@ -12,3 +12,9 @@ body {
 img {
     margin: 0
 }
+
+a, a:active {
+    text-decoration: none;
+    color: #eceff1;
+    font-weight: bold;
+}

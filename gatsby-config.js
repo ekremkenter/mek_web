@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Mustafa Ekrem KENTER`,
-    description: `Software Craftsmen - Mustafa Ekrem KENTER's personal web site`,
+    description: `Software Craftsman - Mustafa Ekrem KENTER's personal web site`,
     author: `@ekremkenter`
   },
   plugins: [

@@ -66,11 +66,6 @@ const IndexPage = () => {
       <Typography gutterBottom variant="h4">
         An experienced software craftsman
       </Typography>
-      <Typography gutterBottom variant="subtitle1">
-        I am available for remote-contract works.{" "}
-        <a href="mailto:ekremkenter@gmail.com?Subject=Hi">Contact me</a> to
-        learn more!
-      </Typography>
 
       <div className={classes.iconBar}>
         <IconContext.Provider value={{ className: classes.social }}>
